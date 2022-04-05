@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+
+h1 {text-align: center;}
+div {
+  height: 500px;
+  background-image: url('./money.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.dropbtn {
+  border: none;
+ background-color: skyblue;
+  color: black;
+  padding: 16px 13px;
+  text-align: center;
+  text-decoration: blink;
+  display: inline-block;
+  font-size: 20px;
+  margin: 4px 2px;
+  transition-duration: 0.4s;
+  cursor: pointer;
+  border-radius: 50%;
+
+}
+
+.dropdown {
+  position: relative;
+  display: inline-block;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #f9f9f9;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+}
+
+.dropdown-content a {
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+}
+
+.dropdown-content a:hover {background-color: #f1f1f1}
+
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+
+.dropdown:hover .dropbtn {
+  background-color: yellow;
+}
+.button {
+  border: none;
+  color: white;
+  padding: 16px 32px;
+  text-align: center;
+  text-decoration: blink;
+  display: inline-block;
+  font-size: 20px;
+  margin: 4px 2px;
+  transition-duration: 0.4s;
+  cursor: pointer;
+  border-radius: 50%;
+}
+
+.button1 {
+  background-color: skyblue; 
+  color: black; 
+  
+}
+
+.button1:hover {
+  background-color: yellow;
+  color: black;
+}
+
+.button2 {
+  background-color: skyblue; 
+  color: black; 
+  
+}
+
+.button2:hover {
+  background-color: yellow;
+  color: black;
+}
+.button3 {
+  background-color: skyblue; 
+  color: black; 
+  
+}
+
+.button3:hover {
+  background-color: yellow;
+  color: black;
+}
+
+</style>
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/css/bootstrap.min.css" integrity="sha384-rwoIResjU2yc3z8GV/NPeZWAv56rSmLldC3R/AZzGRnGxQQKnKkoFVhFQhNUwEyJ" crossorigin="anonymous">
+<style>
+	body {  background-image: url("./image/money.jpg"); background-size:cover;background-repeat: no-repeat
+	}
+	
+</style>
+</head>
+<body background="money.jpg">
+
+<h1>Here you can transaction money </h1>
+
+<div>
+  <form action="/credit" method="get">
+<button class="button button1">Credit</button><br>
+</form>
+<form action="/debit" method="get">
+<button class="button button2">Debit</button><br>
+</form>
+<form action="/checkbalance" method="get">
+
+  <button class="button button3">checkbalance</button>
+
+</form>
+
+
+
+
+</div>
+</body>
+</html>
